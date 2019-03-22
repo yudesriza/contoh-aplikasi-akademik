@@ -1,0 +1,158 @@
+body{
+	background:url("../img/blue.jpg");
+}
+
+.content{
+	width: 95%;
+	margin: 10px auto;
+}
+
+.header{
+	border-bottom:4px dashed #FF7F50;		/* membuat garis tepi 1 pixel */
+	background-color:#F0FFF0;				/* membuat warna latar */
+	text-align:center;
+	font-family:"tahoma";
+	min-height: 150px;
+}
+
+.navbar{
+	display: block;
+}
+
+.navbar ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+
+	background-color: #ebebeb;
+}
+
+.navbar li{
+	float: left;
+}
+
+.navbar li a{
+	display: inline-block;
+	color: black;
+	padding:14px 16px;
+	text-align: center;
+	text-transform: capitalize;
+	font-family: "courier new";
+	font-weight: bold;
+}
+.navbar li a.active{
+	color: white;
+	background-color: blue;
+	font-weight: bold;
+}
+.navbar li a:hover{
+	color: white;
+	background-color: blue;
+	font-weight: bold;
+}
+
+/*.navbar li a:hover, .dropdown:hover .dropbtn{
+	background-color: blue;
+	font-weight: bold;
+}
+
+.navbar li .dropdown{
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color:#c0c0c0;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover{
+	background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+*/
+.isi{
+	height: 500px;
+	width: 100%;
+	padding-top: 20px;
+	background: #f5f5f5;
+}
+
+.isi td img{
+	width: 200px;
+	height: 180px;
+	align-content: center;
+}
+
+.isikiri{
+	float: left;
+	width: 410px;
+	min-height: 500px;
+	padding-left: 20px;
+	background-color: #fff;
+}
+.isikiri td{
+	text-align: justify;
+}
+.isikanan{
+	float: right;
+	width: 802.3px;
+	min-height: 500px;
+	padding-left: 20px;
+	padding-right: 10px;
+	border-left:4px dashed;
+	background-color: #fff;
+}
+.isikanan td{
+	text-align: left;
+}
+
+.footer{
+	clear:both;
+	height:30px;
+	padding:10px;					/* jarak teks dari tepi kotak */
+	border-top:2px dotted #F0E68C;		/* membuat garis tepi 1 pixel */
+	background-color:#FFF0F5;
+	text-align:center;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 20px;
+}
+
+ul{
+	list-style-type: square;
+	font-family: "arial black";
+}
+
+p{
+	font-family: arial;
+}
+
+table{
+	width: 100%;
+	text-align: center;
+}
+
+td p{
+	font-weight: bold;
+	font-family: tahoma, arial, "arial black";
+	font-size: 20px;
+	font-style: italic;
+}
+

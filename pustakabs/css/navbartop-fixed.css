@@ -1,0 +1,9 @@
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top:0;
+}
+
+.navbar-collapse .form-inline {
+  margin-left: 5rem;
+}
